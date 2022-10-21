@@ -30,7 +30,7 @@
 }
 
 .prototype {
-    height: auto%;
+    height: auto;
     width: 50rem;
     margin-bottom: 4rem;
     border-style:solid;
