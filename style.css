@@ -12,7 +12,7 @@
 }
 
 .pic {
-    height: 100%;
+    height: auto;
     width: 50rem;
     object-fit: cover;
     margin: auto;
@@ -21,7 +21,7 @@
 }
 
 .visual {
-    height: 100%;
+    height: auto;
     width: 50rem;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .prototype {
-    height: 100%;
+    height: auto%;
     width: 50rem;
     margin-bottom: 4rem;
     border-style:solid;
