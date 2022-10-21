@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    background-color: #C89FA3;
+    padding-top: 2rem;
+}
+
+.pic {
+    height: 100%;
+    width: 50rem;
+    object-fit: cover;
+    margin: auto;
+    border-color: black;
+    border-style: solid;
+}
+
+.visual {
+    height: 100%;
+    width: 50rem;
+}
+
+.prot {
+    padding-bottom: 3rem;
+}
+
+.prototype {
+    height: 100%;
+    width: 50rem;
+    margin-bottom: 4rem;
+    border-style:solid;
+    border-color:black;
+}
+
+.header {
+    display: flex;
+    background-color: #7174BA;
+    min-height: 5rem;
+    flex: 1 1 auto;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.subdivision-title {
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+
+.navbar-rest {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.non-nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#title {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.division-title {
+    text-align : center;
+}
+
+.col {
+    flex: 1 1 100%;
+    text-align: left;
+}
+
+#res-title {
+    margin-top: 3rem;
+}
+
+.last-pic {
+    padding-bottom: 6rem;
+}

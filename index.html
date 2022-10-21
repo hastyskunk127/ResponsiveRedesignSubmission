@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Responsive Redesign</title>
+	<!-- css file -->
+	<link rel="stylesheet" href="style.css">
+	<!-- bootstrap css -->
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<!-- font-awesome -->
+	<script src="https://kit.fontawesome.com/9821f90383.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div>
+		<div class="header">
+			<h1 id="title">Responsive Redesign</h1>
+			<nav class="navbar navbar-expand-sm navbar-rest">
+				<div class="non-nav">
+					<a class="nav-link" href="#problems">
+						Finding the Website
+					</a>
+				</div>
+				<div class="non-nav">
+					<a class="nav-link" href="#visual">
+						Visual Redesign
+					</a>
+				</div>
+				<div class="non-nav">
+					<a class="nav-link" href="#res-title">
+						Responsive Redesign
+					</a>
+				</div>
+			</nav>
+		</div>
+		<div class="content">
+			<h1 class="division-title" id="Problems">Identifying Problems</h1>
+			<div class="container">
+				<div class="col">
+					<h2 class="subdivision-title">The Mission</h2>
+					<p class="caption">My quest was simple - set out to find a website that could use a overhaul in terms of accessibility and ease of use, and get experience with visual redesign and generating responsive website.</p>
+				</div>
+				<div class="col">
+					<h2 class="subdivision-title">The Website</h2>
+					<p class="caption"> I set my sights upon Spectrum-India, a store prominently featured on Thayer St on my campus. The store has been around for a while and I've shopped here before. When I visited the website I was shocked to see how dated the website looked, and was initially quite overwhelmed by the scattering of text across the website. </p>
+				</div>
+				<div class="col">
+					<img class="pic" src="images/SpectrumSite.png">
+				</div>
+				<div class="col">
+					<h2 class="subdivision-title">The Issues</h2>
+					<ul>
+						<li>The first impression that the website gives upon loading is quite intimidating — in the words of a peer I spoke to, it felt like a blown out poster more than a website. </li>
+						<li>Information is very scattered with a variety of links in irregular places, and the text lacks uniformity - different text has different font, size, and color without any real order to it. There is no clear hierarchy to the website. In terms of learnability and efficiency of browsing items the website is quite lacking.</li>
+						<li>The text is also very small, and there is a lot of it, which can lead to a poor accessibility experience especially when combined with the low contrast.</li>
+						<li>The layout also impacts the efficiency of purchasing items of the site, and even taking in what options there are to purchase. Because everything is so spread out the site is taxing on your memory, since it’s impossible to take in at first glance the different items.</li>
+						<li>There is a navbar, which could help combat the issue of navigability. but it is very small and off to a corner.</li>
+						<li>There is text at the very bottom indicating that pictures are expandable, but this isn’t apparent from looking or hovering over them, and not all pictures are expandable.</li>
+						<li>Each section also has the link for actually viewing the item in a different area, without uniformity.</li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2 class="subdivision-title">Accessibility</h2>
+					<p class="caption">The biggest issues WebWaive reported were the presence small text (67 instances!). This small text, matched with poor contrast, makes it hard to take in information at a glance. There is also a lack of header structure which reflects in the confusing reading order of the website. Throughout the page there is a lack of alternative text, which hinders its accessibility as well.
+						Going on inspect element revealed the lack of a single div, which also might contribute to the irregularity of the sections
+					</p>
+				</div>
+			</div>
+			<h1 class="division-title" id="visual">Visual Redesign</h1>
+			<div class="container">
+				<div class="col">
+					<p class="caption">I set out to redesign the website to address the issues I found with it. This process involved first creating lo-fi prototypes for different sized screens, a visual design, hi-fi prototypes, and then finally the website.</p>
+				</div>
+				<div class="row prot">
+					<div class="col">
+						<h2 class="subdivision-title">Lo-Fi Prototypes - Laptop</h2>
+						<img class="prototype" src="images/Lofi-Laptop.png">
+					</div>
+				</div>
+				<div class="row prot">
+					<div class="col">
+						<h2 class="subdivision-title">Lo-Fi Prototypes - Tablet</h2>
+						<img class="prototype" src="images/Lofi-Tablet.png">
+					</div>
+				</div>
+				<div class="row prot">
+					<div class="col">
+						<h2 class="subdivision-title">Lo-Fi Prototypes - Phone</h2>
+						<img class="prototype" src="images/Lofi-Phone.png">
+					</div>
+				</div>
+				<div class="row prot">
+					<div class="col">
+						<h2 class="subdivision-title">Visual Style Guide</h2>
+						<img class="visual" src="images/VisualStyleGuide.png">
+					</div>
+				</div>
+				<div class="col">
+					<h2 class="subdivision-title">Hi-fi Prototype Laptop</h2>
+					<img class="visual" src="images/LaptopHifiPrototype.png">
+				</div>
+				<div class="row prot">
+					<div class="col">
+						<h2 class="subdivision-title">Hi-fi Prototype Tablet</h2>
+						<img class="visual" src="images/TabletHifiPrototype.png">
+					</div>
+				</div>
+				<div class="row prot">
+					<div class="col">
+						<h2 class="subdivision-title">Hi-fi Prototype Mobile</h2>
+						<img class="visual" src="images/MobileHifiPrototype.png">
+					</div>
+				</div>
+			</div>
+			<h1 class="division-title" id="res-title">Responsive Redesign</h1>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<p>Finally, it was time to create the redesigned website! You can view the full website for yourself <a href="https://hastyskunk127.github.io/ResponsiveRedesign/">here!</a> You can also get a sneak peek of it below.</p>
+					</div>
+				</div>
+				<div class="row last-pic">
+					<div class="col">
+						<h2 class="subdivision-title">Hi-fi Prototype Mobile</h2>
+						<img class="visual" src="images/RedesignedSite.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
